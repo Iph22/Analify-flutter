@@ -1,0 +1,21 @@
+name: analify
+description: Private, simple analytics for Flutter apps on iPhone, Android and desktop. Screens, events and signed-in users on your Analify dashboard.
+version: 0.1.0
+homepage: https://analify.dev
+repository: https://github.com/Iph22/Analify-flutter
+documentation: https://analify.dev/docs#apps
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
